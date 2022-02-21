@@ -7,8 +7,8 @@ from email.mime.base import MIMEBase
 from email import encoders
 
 def send(filename):
-    from_id = 'prathameshrathi78@gmail.com'
-    to_id = 'sunitarathi0909@gmail.com'
+    from_id = 'Senders mail id'
+    to_id = 'Client mail id'
     subject = "Finance Report"
 
     msg = MIMEMultipart()
